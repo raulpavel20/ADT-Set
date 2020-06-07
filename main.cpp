@@ -3,6 +3,5 @@
 
 int main() {
     auto set = new SetHT();
-
     return 0;
 }

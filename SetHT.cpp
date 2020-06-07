@@ -4,6 +4,8 @@
 SetHT::SetHT() {
     this->set = new int[20];
     this->next = new int[20];
+    for(int i = 0; i < 20; i++)
+        this->next[i] = -1;
     this->length = 20;
     this->firstEmpty = 0;
 }
@@ -33,43 +35,58 @@ bool SetHT::add(int elem) {
     }
     if(this->set[this->hashFunc(elem)] == 0) {
         this->set[this->hashFunc(elem)] = elem;
-        if(this->firstEmpty == this->hashFunc(elem))
-            for(int i = 0; i < this->length; i++)
-                if(this->set[i] == 0) {
-                    this->firstEmpty = i;
+        if(this->hashFunc(elem) == this->firstEmpty)
+            for(int j = 0; j < this->length; j++)
+                if(this->set[j] == 0) {
+                    this->firstEmpty = j;
                     break;
                 }
-    } else {
-        this->set[this->firstEmpty] = elem;
-        this->next[this->hashFunc(elem)] = this->firstEmpty;
-        for(int i = 0; i < this->length; i++)
-            if(this->set[i] == 0) {
-                this->firstEmpty = i;
-                break;
-            }
+        return true;
     }
+    int i = this->hashFunc(elem);
+    while(this->next[i] != -1)
+        i = this->next[i];
+    this->set[this->firstEmpty] = elem;
+    this->next[i] = this->firstEmpty;
+    for(int j = 0; j < this->length; j++)
+        if(this->set[j] == 0) {
+            this->firstEmpty = j;
+            break;
+        }
     return true;
 }
 
 bool SetHT::remove(int elem) {
-    for(int i = 0; i < this->length; i++) {
-        if(this->set[i] == elem) {
-            this->set[i] = 0;
-            if(this->set[this->hashFunc(elem)] != 0)
-                this->next[this->hashFunc(elem)] = 0;
-            return true;
-        }
+    int i = this->hashFunc(elem), prevI = -1;
+    while(this->set[i] != elem && i != -1) {
+        prevI = i;
+        i = this->next[i];
     }
-    return false;
+    if(i == -1)
+        return false;
+    if(this->next[i] != -1) {
+        this->set[i] = this->set[this->next[i]];
+        this->set[this->next[i]] = 0;
+        this->next[i] = this->next[this->next[i]];
+        this->next[this->next[i]] = -1;
+    } else {
+        this->set[i] = 0;
+        this->next[prevI] = -1;
+    }
+    for(int j = 0; j < this->length; j++)
+        if(this->set[j] == 0) {
+            this->firstEmpty = j;
+            break;
+        }
+    return true;
 }
 
 bool SetHT::search(int elem) {
-    for(int i = 0; i < this->length; i++) {
-        if(this->set[i] == elem) {
-            return true;
-        }
+    int i = this->hashFunc(elem);
+    while(this->set[i] != elem && i != -1) {
+        i = this->next[i];
     }
-    return false;
+    return this->set[i] == elem;
 }
 
 int SetHT::size() {
@@ -83,4 +100,14 @@ bool SetHT::isEmpty() {
     for(int i = 0; i < this->length; i++)
         if(this->set[i] != 0) return false;
     return true;
+}
+
+void SetHT::print() {
+    std::cout << this->firstEmpty << ' ' << this->isEmpty() << ' ' << this->size() << '\n';
+    for(int i = 0; i < this->length; i++)
+        std::cout << this->set[i] << ' ';
+    std::cout << '\n';
+    for(int i = 0; i < this->length; i++)
+        std::cout << this->next[i] << ' ';
+    std::cout << '\n' << '\n';
 }

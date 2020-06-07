@@ -19,6 +19,7 @@ public:
     bool search(int elem);
     int size();
     bool isEmpty();
+    void print();
 };
 
 
