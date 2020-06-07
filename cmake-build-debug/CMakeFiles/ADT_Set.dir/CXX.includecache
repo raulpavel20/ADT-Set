@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/Raul/Documents/School/ADT-Set/SetHT.cpp
+SetHT.h
+/Users/Raul/Documents/School/ADT-Set/SetHT.h
+iostream
+-
+
+/Users/Raul/Documents/School/ADT-Set/SetHT.h
+
+/Users/Raul/Documents/School/ADT-Set/main.cpp
+SetHT.h
+/Users/Raul/Documents/School/ADT-Set/SetHT.h
+iostream
+-
+
