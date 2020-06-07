@@ -2,8 +2,7 @@
 
 IteratorHT::~IteratorHT() = default;
 
-IteratorHT::IteratorHT(const SetHT& newTable) {
-    this->table = newTable;
+IteratorHT::IteratorHT(const SetHT& newTable) : table(newTable) {
     this->currentPos = 0;
 }
 

@@ -1,5 +1,5 @@
 #include "SetHT.h"
-#include <iostream>
+#include "IteratorHT.h"
 
 SetHT::SetHT() {
     this->set = new int[20];
@@ -100,14 +100,4 @@ bool SetHT::isEmpty() {
     for(int i = 0; i < this->length; i++)
         if(this->set[i] != 0) return false;
     return true;
-}
-
-void SetHT::print() {
-    std::cout << this->firstEmpty << ' ' << this->isEmpty() << ' ' << this->size() << '\n';
-    for(int i = 0; i < this->length; i++)
-        std::cout << this->set[i] << ' ';
-    std::cout << '\n';
-    for(int i = 0; i < this->length; i++)
-        std::cout << this->next[i] << ' ';
-    std::cout << '\n' << '\n';
 }

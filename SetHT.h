@@ -1,8 +1,6 @@
 #ifndef ADT_SET_SETHT_H
 #define ADT_SET_SETHT_H
 
-#include "IteratorHT.h"
-
 class IteratorHT;
 class SetHT {
     friend class IteratorHT;

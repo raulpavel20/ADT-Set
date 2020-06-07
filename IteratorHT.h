@@ -8,7 +8,7 @@ class IteratorHT {
     friend class SetHT;
 
 private:
-    SetHT table;
+    const SetHT &table;
     int currentPos;
     explicit IteratorHT(const SetHT& newTable);
 

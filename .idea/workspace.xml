@@ -12,20 +12,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="23fb1489-095a-4cb1-8e36-f59efca002fe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/IteratorHT.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IteratorHT.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IteratorHT.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/IteratorHT.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IteratorHT.h" beforeDir="false" afterPath="$PROJECT_DIR$/IteratorHT.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SetHT.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/SetHT.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SetHT.h" beforeDir="false" afterPath="$PROJECT_DIR$/SetHT.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ADT_Set.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ADT_Set.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ADT_Set.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ADT_Set.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ADT_Set.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ADT_Set.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ADT_Set.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ADT_Set.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ADT_Set.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ADT_Set.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ADT_Set.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ADT_Set.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ADT_Set" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ADT_Set" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ADT_Set.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ADT_Set.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ADT_Set.dir/SetHT.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ADT_Set.dir/SetHT.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ADT_Set.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ADT_Set.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ADT_Set.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ADT_Set.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ADT_Set.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ADT_Set.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +63,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1591546819576</updated>
-      <workItem from="1591546821067" duration="13799000" />
+      <workItem from="1591546821067" duration="16013000" />
     </task>
     <servers />
   </component>
@@ -73,37 +71,45 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1591558447697">
+    <state width="1238" height="264" key="GridCell.Tab.0.bottom" timestamp="1591563832102">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1591558447697" />
-    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1591558447696">
+    <state width="1238" height="264" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1591563832102" />
+    <state width="1238" height="264" key="GridCell.Tab.0.center" timestamp="1591563832101">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1591558447696" />
-    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1591558447695">
+    <state width="1238" height="264" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1591563832101" />
+    <state width="1238" height="264" key="GridCell.Tab.0.left" timestamp="1591563832100">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1591558447695" />
-    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1591558447696">
+    <state width="1238" height="264" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1591563832100" />
+    <state width="1238" height="264" key="GridCell.Tab.0.right" timestamp="1591563832101">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1591558447696" />
-    <state width="1238" height="264" key="GridCell.Tab.1.bottom" timestamp="1591551656219">
+    <state width="1238" height="264" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1591563832101" />
+    <state width="1238" height="264" key="GridCell.Tab.1.bottom" timestamp="1591563832105">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="264" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1591551656219" />
-    <state width="1238" height="264" key="GridCell.Tab.1.center" timestamp="1591551656217">
+    <state width="1238" height="264" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1591563832105" />
+    <state width="1238" height="264" key="GridCell.Tab.1.center" timestamp="1591563832104">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="264" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1591551656217" />
-    <state width="1238" height="264" key="GridCell.Tab.1.left" timestamp="1591551656217">
+    <state width="1238" height="264" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1591563832104" />
+    <state width="1238" height="264" key="GridCell.Tab.1.left" timestamp="1591563832102">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="264" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1591551656217" />
-    <state width="1238" height="264" key="GridCell.Tab.1.right" timestamp="1591551656218">
+    <state width="1238" height="264" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1591563832102" />
+    <state width="1238" height="264" key="GridCell.Tab.1.right" timestamp="1591563832104">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="264" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1591551656218" />
+    <state width="1238" height="264" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1591563832104" />
+    <state x="362" y="192" key="refactoring.ChangeSignatureDialog" timestamp="1591563195050">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="362" y="192" key="refactoring.ChangeSignatureDialog/0.0.1280.800@0.0.1280.800" timestamp="1591563195050" />
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1591563252525">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1591563252525" />
   </component>
 </project>
