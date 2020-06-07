@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "ADT_Set"
   "ADT_Set.pdb"
+  "CMakeFiles/ADT_Set.dir/IteratorHT.cpp.o"
   "CMakeFiles/ADT_Set.dir/SetHT.cpp.o"
   "CMakeFiles/ADT_Set.dir/main.cpp.o"
 )

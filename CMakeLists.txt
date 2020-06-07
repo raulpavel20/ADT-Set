@@ -3,4 +3,4 @@ project(ADT_Set)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(ADT_Set main.cpp SetHT.h SetHT.cpp)
+add_executable(ADT_Set main.cpp SetHT.h SetHT.cpp IteratorHT.cpp IteratorHT.h)

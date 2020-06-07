@@ -123,6 +123,33 @@ ADT_Set/fast:
 	$(MAKE) -f CMakeFiles/ADT_Set.dir/build.make CMakeFiles/ADT_Set.dir/build
 .PHONY : ADT_Set/fast
 
+IteratorHT.o: IteratorHT.cpp.o
+
+.PHONY : IteratorHT.o
+
+# target to build an object file
+IteratorHT.cpp.o:
+	$(MAKE) -f CMakeFiles/ADT_Set.dir/build.make CMakeFiles/ADT_Set.dir/IteratorHT.cpp.o
+.PHONY : IteratorHT.cpp.o
+
+IteratorHT.i: IteratorHT.cpp.i
+
+.PHONY : IteratorHT.i
+
+# target to preprocess a source file
+IteratorHT.cpp.i:
+	$(MAKE) -f CMakeFiles/ADT_Set.dir/build.make CMakeFiles/ADT_Set.dir/IteratorHT.cpp.i
+.PHONY : IteratorHT.cpp.i
+
+IteratorHT.s: IteratorHT.cpp.s
+
+.PHONY : IteratorHT.s
+
+# target to generate assembly for a file
+IteratorHT.cpp.s:
+	$(MAKE) -f CMakeFiles/ADT_Set.dir/build.make CMakeFiles/ADT_Set.dir/IteratorHT.cpp.s
+.PHONY : IteratorHT.cpp.s
+
 SetHT.o: SetHT.cpp.o
 
 .PHONY : SetHT.o
@@ -186,6 +213,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... ADT_Set"
+	@echo "... IteratorHT.o"
+	@echo "... IteratorHT.i"
+	@echo "... IteratorHT.s"
 	@echo "... SetHT.o"
 	@echo "... SetHT.i"
 	@echo "... SetHT.s"

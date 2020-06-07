@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/Raul/Documents/School/ADT-Set/IteratorHT.cpp">
+			<Option target="ADT_Set"/>
+		</Unit>
+		<Unit filename="/Users/Raul/Documents/School/ADT-Set/IteratorHT.h">
+			<Option target="ADT_Set"/>
+		</Unit>
 		<Unit filename="/Users/Raul/Documents/School/ADT-Set/SetHT.cpp">
 			<Option target="ADT_Set"/>
 		</Unit>

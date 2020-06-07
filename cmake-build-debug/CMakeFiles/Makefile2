@@ -74,12 +74,12 @@ clean: CMakeFiles/ADT_Set.dir/clean
 CMakeFiles/ADT_Set.dir/all:
 	$(MAKE) -f CMakeFiles/ADT_Set.dir/build.make CMakeFiles/ADT_Set.dir/depend
 	$(MAKE) -f CMakeFiles/ADT_Set.dir/build.make CMakeFiles/ADT_Set.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/Raul/Documents/School/ADT-Set/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target ADT_Set"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/Raul/Documents/School/ADT-Set/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4 "Built target ADT_Set"
 .PHONY : CMakeFiles/ADT_Set.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/ADT_Set.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Raul/Documents/School/ADT-Set/cmake-build-debug/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Raul/Documents/School/ADT-Set/cmake-build-debug/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ADT_Set.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Raul/Documents/School/ADT-Set/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/ADT_Set.dir/rule
