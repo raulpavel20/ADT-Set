@@ -1,5 +1,6 @@
 #include "SetHT.h"
 #include "IteratorHT.h"
+#include <iostream>
 
 SetHT::SetHT() {
     this->set = new int[20];
@@ -71,7 +72,9 @@ bool SetHT::remove(int elem) {
         this->next[i] = this->next[this->next[i]];
     } else {
         this->set[i] = 0;
-        this->next[prevI] = -1;
+        if(this->next[prevI] != 0 && this->next[prevI] != -1){
+            this->next[prevI] = -1;
+        }
     }
     for(int j = 0; j < this->length; j++)
         if(this->set[j] == 0) {
