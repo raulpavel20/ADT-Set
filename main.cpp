@@ -89,10 +89,14 @@ void printMenu() {
 int main() {
     runTests();
     auto set = new SetHT();
-    int o = -1;
+    int o = -1, val;
     while (o != 0 ) {
         printMenu();
-        std::cin >> o;
+        std::cin >> val;
+        // using "val" is pointless but by reading directly in "o"
+        // CLion triggers a warning that marks the switch unreachable for some reason.
+        // Can't find any other way to fix it
+        o = val;
         switch (o) {
             case 0:
                 std::cout << "Bye!";

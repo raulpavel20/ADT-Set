@@ -1,6 +1,5 @@
 #include "SetHT.h"
 #include "IteratorHT.h"
-#include <iostream>
 
 SetHT::SetHT() {
     this->set = new int[20];

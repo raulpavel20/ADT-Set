@@ -16,7 +16,7 @@ public:
     ~IteratorHT();
     int getCurrent();
     void next();
-    bool valid() const;
+    [[nodiscard]] bool valid() const;
 };
 
 

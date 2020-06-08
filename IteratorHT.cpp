@@ -13,7 +13,7 @@ int IteratorHT::getCurrent() {
 void IteratorHT::next() {
     if(this->currentPos + 1 <= this->table.length)
         this->currentPos++;
-    else throw std::string("out of bounds");
+    else throw;
 }
 
 bool IteratorHT::valid() const {

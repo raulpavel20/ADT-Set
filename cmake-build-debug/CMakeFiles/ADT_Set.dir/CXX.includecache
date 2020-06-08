@@ -14,9 +14,15 @@ string
 
 /Users/Raul/Documents/School/ADT-Set/SetHT.h
 
-/Users/Raul/Documents/School/ADT-Set/test.cpp
+/Users/Raul/Documents/School/ADT-Set/main.cpp
+SetHT.h
+/Users/Raul/Documents/School/ADT-Set/SetHT.h
+IteratorHT.h
+/Users/Raul/Documents/School/ADT-Set/IteratorHT.h
 test.h
 /Users/Raul/Documents/School/ADT-Set/test.h
+iostream
+-
 
 /Users/Raul/Documents/School/ADT-Set/test.h
 IteratorHT.h
