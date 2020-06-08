@@ -9,6 +9,13 @@ CMakeFiles/ADT_Set.dir/SetHT.cpp.o: ../IteratorHT.h
 CMakeFiles/ADT_Set.dir/SetHT.cpp.o: ../SetHT.cpp
 CMakeFiles/ADT_Set.dir/SetHT.cpp.o: ../SetHT.h
 
+CMakeFiles/ADT_Set.dir/main.cpp.o: ../IteratorHT.h
 CMakeFiles/ADT_Set.dir/main.cpp.o: ../SetHT.h
 CMakeFiles/ADT_Set.dir/main.cpp.o: ../main.cpp
+CMakeFiles/ADT_Set.dir/main.cpp.o: ../test.h
+
+CMakeFiles/ADT_Set.dir/test.cpp.o: ../IteratorHT.h
+CMakeFiles/ADT_Set.dir/test.cpp.o: ../SetHT.h
+CMakeFiles/ADT_Set.dir/test.cpp.o: ../test.cpp
+CMakeFiles/ADT_Set.dir/test.cpp.o: ../test.h
 

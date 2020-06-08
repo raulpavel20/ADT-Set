@@ -95,6 +95,12 @@
 		<Unit filename="/Users/Raul/Documents/School/ADT-Set/main.cpp">
 			<Option target="ADT_Set"/>
 		</Unit>
+		<Unit filename="/Users/Raul/Documents/School/ADT-Set/test.cpp">
+			<Option target="ADT_Set"/>
+		</Unit>
+		<Unit filename="/Users/Raul/Documents/School/ADT-Set/test.h">
+			<Option target="ADT_Set"/>
+		</Unit>
 		<Unit filename="/Users/Raul/Documents/School/ADT-Set/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

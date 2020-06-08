@@ -2,7 +2,7 @@
 
 IteratorHT::~IteratorHT() = default;
 
-IteratorHT::IteratorHT(const SetHT& newTable) : table(newTable) {
+IteratorHT::IteratorHT(SetHT *newTable) : table(*newTable) {
     this->currentPos = 0;
 }
 
@@ -16,7 +16,7 @@ void IteratorHT::next() {
     else throw std::string("out of bounds");
 }
 
-bool IteratorHT::valid() {
-    return this->table.set[this->currentPos] != 0;
+bool IteratorHT::valid() const {
+    return this->currentPos != this->table.length;
 }
 

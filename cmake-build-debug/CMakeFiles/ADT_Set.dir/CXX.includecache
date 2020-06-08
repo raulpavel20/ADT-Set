@@ -6,11 +6,21 @@
 
 #IncludeRegexTransform: 
 
-/Users/Raul/Documents/School/ADT-Set/SetHT.h
-
-/Users/Raul/Documents/School/ADT-Set/main.cpp
+/Users/Raul/Documents/School/ADT-Set/IteratorHT.h
 SetHT.h
 /Users/Raul/Documents/School/ADT-Set/SetHT.h
-iostream
+string
 -
+
+/Users/Raul/Documents/School/ADT-Set/SetHT.h
+
+/Users/Raul/Documents/School/ADT-Set/test.cpp
+test.h
+/Users/Raul/Documents/School/ADT-Set/test.h
+
+/Users/Raul/Documents/School/ADT-Set/test.h
+IteratorHT.h
+/Users/Raul/Documents/School/ADT-Set/IteratorHT.h
+SetHT.h
+/Users/Raul/Documents/School/ADT-Set/SetHT.h
 

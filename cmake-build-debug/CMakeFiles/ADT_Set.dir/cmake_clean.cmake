@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/ADT_Set.dir/IteratorHT.cpp.o"
   "CMakeFiles/ADT_Set.dir/SetHT.cpp.o"
   "CMakeFiles/ADT_Set.dir/main.cpp.o"
+  "CMakeFiles/ADT_Set.dir/test.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.
